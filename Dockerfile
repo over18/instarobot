@@ -1,6 +1,7 @@
 FROM python:slim
 
-RUN pip install -r requirements.txt
 WORKDIR /robot 
 COPY . .
+RUN pip install -r requirements.txt
+
 ENTRYPOINT ["python", "instarobot.py"]
