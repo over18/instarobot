@@ -449,7 +449,7 @@ def photoload(imagefile):
 
         'source_type': 'library',
         #'caption': f'{comm}\n{printtags}',
-        'caption': f'{comm}',
+        'caption': f'',
         'upcoming_event':'' ,
         'upload_id': microtime,
         'geotag_enabled': 'true',
