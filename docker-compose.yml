@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+    istabot:
+     container_name: instarobot
+     build: .
